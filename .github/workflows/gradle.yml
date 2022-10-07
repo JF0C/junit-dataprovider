@@ -28,7 +28,7 @@ jobs:
       with:
         java-version: '8'
         distribution: 'temurin'
-    - name: Execute Tests
+    - name: Unit Tests
       run: ./gradlew test
     - name: Integration Tests
       run: ./gradlew integTest
